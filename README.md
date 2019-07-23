@@ -21,9 +21,9 @@
 - Output:
   - Success Rate of responses are calculated by Applicaton by Version's total number of successful responses divided by total number of responses.
   - The results are printed to stdout in the following format:
-          - App_Name
-              - Version    Success_Rate %
-  - A results.json file is also created in the $PWD containing the dictionary of the same data.
+    - App_Name
+      - Version    Success_Rate %
+  - A **results.json** file is also created in the $PWD containing the dictionary of the same data.
               
  
  # What's Next:
