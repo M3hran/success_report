@@ -16,7 +16,7 @@
   - the application requires python3 
   - if there is an error in executing the command, you will be notified with correct usage parameters.
   - you may specify the number of worker threads to help speed up the scripts data gathering in large deployments.
-  - Usage: python3 success_report.py /path/to/hostsfile optional<number of worker threads>
+  - Usage: **python3 success_report.py /path/to/hostsfile optional_number_of_worker_threads**
 
 - Output:
   - Success Rate of responses are calculated by Applicaton by Version's total number of successful responses divided by total number of responses.
