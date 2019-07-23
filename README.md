@@ -17,6 +17,14 @@
   - if there is an error in executing the command, you will be notified with correct usage parameters.
   - you may specify the number of worker threads to help speed up the scripts data gathering in large deployments.
   - Usage: python3 success_report.py /path/to/hostsfile optional<number of worker threads>
+
+- Output:
+  - Success Rate of responses are calculated by Applicaton by Version's total number of successful responses divided by total number of responses.
+  - The results are printed to stdout in the following format:
+          - App_Name
+              - Version    Success_Rate %
+  - A results.json file is also created in the $PWD containing the dictionary of the same data.
+              
  
  # What's Next:
 - Build a frontend API CRUD wrapper for the backend logic. 
