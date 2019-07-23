@@ -5,13 +5,17 @@
   - python>=3.6
   - a hostsfile containing lists of server inventory
 - Usage:
+
 ##
-git clone https://github.com/M3hran/success_report.git && cd ./success_report && python3 success_report.py hostsfile 4
+
+    git clone https://github.com/M3hran/success_report.git && cd ./success_report && python3 success_report.py hostsfile 4
+    
 ##
 
 - Notes:
   - the application requires python3 
   - if there is an error in executing the command, you will be notified with correct usage parameters.
+  - you may specify the number of worker threads to help speed up the scripts data gathering in large deployments.
   - Usage: python3 success_report.py /path/to/hostsfile optional<number of worker threads>
  
  # What's Next:
