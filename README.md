@@ -1,1 +1,23 @@
-# success_report
+# Success Rate Report - POC
+- This is a POC and is not intended for production use and only as a demo of how to start aggregating data from remote API endpoints.
+
+- Depends on:
+  - python>=3.6
+  - a hostsfile containing lists of server inventory
+- Usage:
+##
+git clone https://github.com/M3hran/success_report.git && cd ./success_report && python3 success_report.py hostsfile 4
+##
+
+- Notes:
+  - the application requires python3 
+  - if there is an error in executing the command, you will be notified with correct usage parameters.
+  - Usage: python3 success_report.py /path/to/hostsfile optional<number of worker threads>
+ 
+ # What's Next:
+- Build a frontend API CRUD wrapper for the backend logic. 
+- Dockerize the app and make avaialable via http.
+- Encrypt the API endpoint traffic with TLS. 
+- Store historical timeseries in Redis for persistance, and downstream consumption into a dashboarding tool like grafana, Kibana, Splunk, etc. 
+
+
