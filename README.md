@@ -3,7 +3,7 @@
 
 - Depends on:
   - python>=3.6
-  - a hostsfile containing the list of server inventory
+  - a hostsfile containing the list of server inventory to poll.
 - Usage:
 
 ##
